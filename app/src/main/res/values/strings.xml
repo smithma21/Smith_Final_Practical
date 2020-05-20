@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Smith_Final_Practical</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_message">Date:</string>
+    <string name="date_picker">datePicker</string>
+    <string name="date">Date</string>
+    <string name="description_text">Select the date for your attendance and place your order.</string>
+    <string name="first_name_hint">Enter your first name</string>
+    <string name="name_label_text">Name</string>
+    <string name="first_name_label_text">First Name</string>
+    <string name="last_name_label_text">Last Name</string>
+    <string name="last_name_hint">Enter your last name</string>
+    <string name="select_concert_desc">Select the artist or band you wish to see in concert.</string>
+    <string name="dan_and_shay_price">Price per ticket: $75.00</string>
+    <string name="dan_and_shay_date">Date(s): August 6, 2020</string>
+    <string name="sturgill_simpson_price">Price per ticket: $35.00</string>
+    <string name="sturgill_simpson_date">Date(s): May 24, 2020</string>
+    <string name="janet_jackson_price">Price per ticket: $180.00</string>
+    <string name="janet_jackson_date">Date(s): August 1, 2020</string>
+    <string name="michael_buble_price">Price per ticket: $245.00</string>
+    <string name="michael_buble_date">Date(s): March 17, 2021</string>
+    <string name="kfc_yum_center">KFC Yum! Center</string>
+    <string name="louisville_ky">Louisville, KY</string>
+    <string name="phone_number">(502) 690-9000</string>
+    <string name="buy_tickets">Buy Tickets</string>
+</resources>

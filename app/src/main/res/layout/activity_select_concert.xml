@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectConcert">
+
+    <TextView
+        android:id="@+id/select_concert_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/select_concert_desc"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dan_and_shay"
+        android:layout_width="159dp"
+        android:layout_height="359dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_concert_description"
+        app:srcCompat="@drawable/dan_and_shay" />
+
+    <TextView
+        android:id="@+id/dan_and_shay_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="270dp"
+        android:text="@string/dan_and_shay_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dan_and_shay" />
+
+    <TextView
+        android:id="@+id/dan_and_shay_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/dan_and_shay_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dan_and_shay_price" />
+
+    <ImageView
+        android:id="@+id/sturgill_simpson"
+        android:layout_width="155dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toEndOf="@+id/dan_and_shay"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sturgill_simpson" />
+
+    <TextView
+        android:id="@+id/sturgill_simpson_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/sturgill_simpson_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sturgill_simpson" />
+
+    <TextView
+        android:id="@+id/sturgill_simpson_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sturgill_simpson_date"
+        app:layout_constraintStart_toEndOf="@+id/dan_and_shay_date"
+        app:layout_constraintTop_toBottomOf="@+id/sturgill_simpson" />
+
+    <ImageView
+        android:id="@+id/janet_jackson"
+        android:layout_width="141dp"
+        android:layout_height="403dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/janet_jackson" />
+
+    <TextView
+        android:id="@+id/janet_jackson_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/janet_jackson_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dan_and_shay_date" />
+
+    <TextView
+        android:id="@+id/janet_jackson_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/janet_jackson_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/janet_jackson_price" />
+
+    <ImageView
+        android:id="@+id/michael_buble"
+        android:layout_width="148dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="436dp"
+        app:layout_constraintStart_toEndOf="@+id/janet_jackson"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/michael_buble" />
+
+    <TextView
+        android:id="@+id/michael_buble_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="164dp"
+        android:text="@string/michael_buble_price"
+        app:layout_constraintStart_toEndOf="@+id/janet_jackson"
+        app:layout_constraintTop_toTopOf="@+id/michael_buble" />
+
+    <TextView
+        android:id="@+id/michael_buble_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/michael_buble_date"
+        app:layout_constraintStart_toEndOf="@+id/janet_jackson_date"
+        app:layout_constraintTop_toBottomOf="@+id/michael_buble_price" />
+</androidx.constraintlayout.widget.ConstraintLayout>
