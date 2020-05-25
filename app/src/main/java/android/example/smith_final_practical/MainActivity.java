@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView phone_number = findViewById(R.id.phone_number);
+//    TextView phone_number = findViewById(R.id.phone_number);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 //        });
     }
 
-//    public  void Call(View v)
+//    public void Call(View v)
 //    {
 //        Uri u = Uri.parse("tel:" + phone_number.getText().toString());
 //
